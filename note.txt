@@ -25,3 +25,8 @@ http://localhost:3000/products?_sort=price,category&_order=desc,asc (For Descend
 vii) Pagination
 http://localhost:3000/products?_page=1 (On 1st page shows 10 data)
 http://localhost:3000/products?_page=1&_limit=2 (Limit the showing data is 2, check next data change _page=2)
+
+vii) Operators
+http://localhost:3000/products?price_gte=2000&price_lte=6000 (Price in between 2000 to 6000)
+http://localhost:3000/products?id_ne=1 (ID 1 is skipped)
+http://localhost:3000/products?category_like=^f (Filter all data start with f)
