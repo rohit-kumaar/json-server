@@ -56,3 +56,5 @@ click on body
 click on JSON
 set your json data 
 click to send
+
+PATCH (In PATCH REQ we need only one property to update) 
