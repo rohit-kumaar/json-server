@@ -16,3 +16,8 @@ http://localhost:3000/products?category=electronics
 
 v) Access nested property
 http://localhost:3000/products?category=electronics&discount.type=shipping
+
+vi) Sorting the product
+http://localhost:3000/products?_sort=price (For Ascending)
+http://localhost:3000/products?_sort=price&_order=desc  (For Descending)
+http://localhost:3000/products?_sort=price,category&_order=desc,asc (For Descending order price and then Ascending order category)
