@@ -48,3 +48,11 @@ click on body
 click on JSON
 set your json data 
 click to send
+
+xi) PUT (In PUT REQ we need entire property)  Request
+set PUT
+set URL/id
+click on body 
+click on JSON
+set your json data 
+click to send
