@@ -60,3 +60,6 @@ click to send
 PATCH (In PATCH REQ we need only one property to update) 
 
 DELETE Request
+
+xii) Configurations
+"json-start": "json-server --watch db.json --port 4000"
