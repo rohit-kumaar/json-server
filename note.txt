@@ -21,3 +21,7 @@ vi) Sorting the product
 http://localhost:3000/products?_sort=price (For Ascending)
 http://localhost:3000/products?_sort=price&_order=desc  (For Descending)
 http://localhost:3000/products?_sort=price,category&_order=desc,asc (For Descending order price and then Ascending order category)
+
+vii) Pagination
+http://localhost:3000/products?_page=1 (On 1st page shows 10 data)
+http://localhost:3000/products?_page=1&_limit=2 (Limit the showing data is 2, check next data change _page=2)
