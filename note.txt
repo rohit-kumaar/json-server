@@ -1,0 +1,18 @@
+i) Server is run in port 
+http://localhost:3000/
+
+ii) For GET REQUEST 
+http://localhost:3000/products
+http://localhost:3000/reviews
+
+
+iii) For GET REQUEST access one product
+http://localhost:3000/products/1
+http://localhost:3000/reviews/1
+
+iv) For Filtering the data
+http://localhost:3000/products?category=electronics
+
+
+v) Access nested property
+http://localhost:3000/products?category=electronics&discount.type=shipping
