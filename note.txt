@@ -62,4 +62,8 @@ PATCH (In PATCH REQ we need only one property to update)
 DELETE Request
 
 xii) Configurations
+port :-
 "json-start": "json-server --watch db.json --port 4000"
+
+routes :-
+ "json-start": "json-server --watch db.json --port 4000 --routes routes.json"
