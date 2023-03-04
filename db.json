@@ -72,13 +72,6 @@
       "discount": {
         "type": "shipping"
       }
-    },
-    {
-      "id": 11,
-      "title": "Product 11",
-      "category": "furniture",
-      "price": 8000,
-      "description": "This is description about product 11"
     }
   ],
   "reviews": [
