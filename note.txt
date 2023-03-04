@@ -38,3 +38,13 @@ ix) Relationships
 http://localhost:3000/products?_embed=reviews (Show product ids reviews)
 http://localhost:3000/products/1?_embed=reviews (Show only product id 1 reviews)
 http://localhost:3000/reviews?_expand=product (Review having only one product)
+
+x) POST Request
+Install RapidAPI
+create new REQUEST
+set POST
+set URL
+click on body 
+click on JSON
+set your json data 
+click to send
