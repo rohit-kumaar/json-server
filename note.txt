@@ -30,3 +30,6 @@ vii) Operators
 http://localhost:3000/products?price_gte=2000&price_lte=6000 (Price in between 2000 to 6000)
 http://localhost:3000/products?id_ne=1 (ID 1 is skipped)
 http://localhost:3000/products?category_like=^f (Filter all data start with f)
+
+viii) Full text Search
+http://localhost:3000/products?q=in (Search in)
