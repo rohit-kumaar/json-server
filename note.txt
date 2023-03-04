@@ -33,3 +33,8 @@ http://localhost:3000/products?category_like=^f (Filter all data start with f)
 
 viii) Full text Search
 http://localhost:3000/products?q=in (Search in)
+
+ix) Relationships
+http://localhost:3000/products?_embed=reviews (Show product ids reviews)
+http://localhost:3000/products/1?_embed=reviews (Show only product id 1 reviews)
+http://localhost:3000/reviews?_expand=product (Review having only one product)
